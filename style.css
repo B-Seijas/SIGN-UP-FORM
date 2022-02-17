@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(font/Movement.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container , .logo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.picture{
+    background-image: url(img/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 35vw;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    height: 80px;
+}
+
+.logo-text{
+    color: aliceblue;
+    font-family: "CustomFont";
+}
+
+.photo-credit{
+    font-family: "CustomFont";
+    color: aliceblue;
+    position: relative;
+    top: 83vh; 
+    align-items: center;
+    justify-content: center;
+}
