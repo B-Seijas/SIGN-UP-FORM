@@ -54,3 +54,74 @@
     align-items: center;
     justify-content: center;
 }
+
+.right{
+    width: 65vw;
+    background-color: #0d093d;
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.text-description{
+font-family: "Customfont";
+font-size: 24px;
+color: aliceblue;
+}
+
+.separated-text{
+    margin: 40px 0 60px;
+    font-family: "Customfont";
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.form{
+    background-color: rgba(200, 214, 228, 0.438);
+}
+
+.form-tittle{
+    font-size: 16px;
+    font-family: "Customfont";
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+}
+
+input:focus{
+border: 2px solid palevioletred;
+outline: none;
+}
+
+.input.focus{
+    box-shadow: blue;
+}
+
+button{
+    font-weight: bolder;
+    border: 2px plum;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: blueviolet;
+}
+
+.submit-button{
+    background-color: #0d093d;
+}
+
+.has-account{
+    font-size: 16px;
+    font-family: "Customfont";
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
